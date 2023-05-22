@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: rgb(51,51,51);
+}
+
+header{
+    background-color: rgb(51,51,51);
+    width: 100%;
+    height: 43px;
+}
+
+.container {
+    padding-top:7px;
+    
+}
+.container2 {
+    font-size: 20px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    height:10%;
+    position: absolute;
+    top: 15%;
+    right: 46%;
+    
+    
+
+}
+.logo {
+    
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 200px;
+        top: 15px;
+}
+.searchicon {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 18px;
+        right: 200px;        
+}
+
+.bagicon {
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    right: 100px;
+}
+
+nav ul.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+    
+nav{
+    position: absolute;
+    left: 25%;
+    margin-top: 4px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+    font-size: 16px;
+}
+
+
+
+.firstsection{
+    min-width: 100vw;
+}
+.box1{
+    min-width: 100%;
+}
+.first-image{
+    background: url("https://images.cgames.de/images/gamestar/290/iphone-14-pro_6195521.jpg");
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 80rem;
+    margin-top: -1rem;
+}
+
+
+
+.box2{
+    transform: translateY(-6rem);
+    color: white;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-width: 10%;
+    min-height: 70px;
+    margin-top: -1000px;
+
+}
+a{
+    color: white;
+}
